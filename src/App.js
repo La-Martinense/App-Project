@@ -25,10 +25,10 @@ function App() {
       <h1 className='titlle'>La Martinense</h1>
      </div>
      <div className='containerSlide'>   
-      <button>El Parque</button>
-      <button>Historia</button>
-      <button> Agenda</button>
-      <button> Entitas</button>
+      <button className='spaceMargin'>El Parque</button>
+      <button className='spaceButton'>Historia</button>
+      <button className='spaceButton'> Agenda</button>
+      <button className='spaceButton'> Entitas</button>
      </div>
     </div>
   );
