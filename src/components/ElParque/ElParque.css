@@ -2,6 +2,9 @@
     width: 98%;
     align-items: center;
 }
+.containerElParque{
+  margin-left: 5%;
+}
 .containerList {
   display: flex;
   flex-direction: row;
@@ -21,4 +24,13 @@
 .spaceListParque:focus,
 .spaceListParque:active {
   font-size: 20px;
+}
+.containerImageParque{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0.5;
+}
+.spaceTextParque{
+  margin: 1%;
 }
