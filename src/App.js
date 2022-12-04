@@ -1,6 +1,6 @@
 import { CgProfile } from 'react-icons/cg';
 import { RiListSettingsLine } from 'react-icons/ri';
-import { MdChevronLeft, MdChevronRight } from 'react-icons/md';
+
 import './App.css';
 
 function App() {
@@ -25,14 +25,14 @@ function App() {
       <h1 className='titlle'>La Martinense</h1>
      </div>
      <div className='containerSlide'>
-      <MdChevronLeft onClick={slideLeft}/>
+
     
       <h3>El Parque</h3>
       <h3>Historia</h3>
       <h3> Agenda</h3>
       <h3> Entitas</h3>
    
-      <MdChevronRight onClick={slideRight}/>
+      
 
      </div>
     </div>
