@@ -3,6 +3,7 @@ const ElParque = () => {
     return (
         <div>
             <div>
+                <img src="assets/i" alt="">
             </div>
             <p>El barrio de Sant Martí es un gran parque comunitario: una plaza recogida bajo un espeso arbolado, configurado por espacios bastante diferenciados que evidencian las sucesivas fases de construcción a lo largo de diez años. El resultado es una amplia zona verde con muchos equipamientos de barrio.
 
