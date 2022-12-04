@@ -14,11 +14,12 @@ function App() {
     slider.scrollLeft = slider.scrollLeft + 500
   }
   return (
-    <div >
+    <div>
      <header className='header'>
       <RiListSettingsLine/>
        <CgProfile/>
      </header>
+
      <div></div>
      <div>
       <h1>La Martinense</h1>
@@ -32,6 +33,7 @@ function App() {
       <h3> Entitas</h3>
       </div>
       <MdChevronRight onClick={slideRight}/>
+
      </div>
     </div>
   );

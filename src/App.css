@@ -4,3 +4,17 @@
     justify-content: space-between;
     margin:5% 5%;
 }
+.line{
+    background-color: black;
+    width:320px;
+    height: 4px;
+    margin-left: 5%;
+}
+.titlle{
+    margin-left: 5%;
+}
+.containerNabvar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
