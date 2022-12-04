@@ -8,9 +8,17 @@ function App() {
      <header className='header'>
       <RiListSettingsLine/>
        <CgProfile/>
-      
      </header>
-    
+     <div></div>
+     <div>
+      <h1>La Martinense</h1>
+     </div>
+     <div>
+      <h3>El Parque</h3>
+      <h3>Historia</h3>
+      <h3> Agenda</h3>
+      <h3> Agenda</h3>
+     </div>
     </div>
   );
 }
