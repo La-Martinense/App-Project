@@ -20,7 +20,7 @@ El parque tiene en su parte más grande la forma de un gran triángulo irregular
             <ul className="containerList">
                 <li className='spaceListParque'>Historia</li>
                 <li className='spaceListParque'>Biodiversidad</li>
-                <li className='spaceListParque'>Paisajismo y Diseño</li>
+                <li className='spaceListParque'>Paisajismo</li>
             </ul>
         </div>
         <div className="lineParque">
