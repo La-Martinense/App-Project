@@ -17,7 +17,7 @@ function App() {
       <h3>El Parque</h3>
       <h3>Historia</h3>
       <h3> Agenda</h3>
-      <h3> Agenda</h3>
+      <h3> Entitas</h3>
      </div>
     </div>
   );
