@@ -26,25 +26,25 @@ function App() {
      </div>
      <div className='containerSlide'>   
 
-      <Link
+      <Link className='spaceMargin'
         to="/"
         type="submit"
       >El Parque</Link>
-      <Link 
+      <Link className='spaceButton'
        to="/historia"
        type="submit"
        >Historia</Link>
-      <Link 
+      <Link className='spaceButton'
        to="/agenda"
        type="submit"
        > Agenda</Link>
-      <Link  
+      <Link className='spaceButton'
         to="/entidades"
         type="submit"
         > Entidades</Link>
 
      </div>
-      <Link  
+      <Link className='spaceButton' 
         to="/barrio"
         type="submit"
         > El Barrio</Link>

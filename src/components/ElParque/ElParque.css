@@ -1,0 +1,24 @@
+* {
+    width: 98%;
+    align-items: center;
+}
+.containerList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.lineParque {
+  background-color: black;
+  width: 320px;
+  height: 4px;
+  margin-left: 5%;
+}
+
+.spaceListParque {
+  font-weight: 700;
+}
+.spaceListParque:hover,
+.spaceListParque:focus,
+.spaceListParque:active {
+  font-size: 20px;
+}
