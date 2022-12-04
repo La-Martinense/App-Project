@@ -24,16 +24,11 @@ function App() {
      <div>
       <h1 className='titlle'>La Martinense</h1>
      </div>
-     <div className='containerSlide'>
-
-    
-      <h3>El Parque</h3>
-      <h3>Historia</h3>
-      <h3> Agenda</h3>
-      <h3> Entitas</h3>
-   
-      
-
+     <div className='containerSlide'>   
+      <button>El Parque</button>
+      <button>Historia</button>
+      <button> Agenda</button>
+      <button> Entitas</button>
      </div>
     </div>
   );
