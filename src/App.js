@@ -5,6 +5,7 @@ import ElParque from './components/ElParque/ElParque';
 import ElBarrio from './components/ElBarrio/ElBarrio';
 import Entidades from './components/Entidades/Entidades';
 import Agenda from './components/Agenda/Agends';
+import Portada from './components/Portada/Portada';
 
 import './App.css';
 
@@ -26,6 +27,11 @@ function App() {
      </div>
      <div className='containerSlide'>   
 
+     <Link className='spaceButton' 
+        to="/"
+        type="submit"
+        > Portada</Link>
+
       <Link className='spaceMargin'
         to="/elParque"
         type="submit"
@@ -44,14 +50,19 @@ function App() {
         > Entidades</Link>
 
      </div>
-      <Link className='spaceButton' 
-        to="/barrio"
-        type="submit"
-        > El Barrio</Link>
+      
    
     </div>
     
     <Routes>
+    <Route 
+      exact
+      path='/'
+      element={
+        <Portada/>
+      }
+      />
+
       <Route 
       exact
       path='/elParque'
