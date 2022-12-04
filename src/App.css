@@ -13,8 +13,14 @@
 .titlle{
     margin-left: 5%;
 }
+.containerSlide{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 .containerNabvar{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    
 }
