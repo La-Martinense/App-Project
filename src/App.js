@@ -2,7 +2,7 @@ import { CgProfile } from 'react-icons/cg';
 import { RiListSettingsLine } from 'react-icons/ri';
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import ElParque from './components/ElParque/ElParque';
-import ElBarrio from './components/ElBarro/ElBarro';
+import ElBarrio from './components/ElBarrio/ElBarrio';
 import Entidades from './components/Entidades/Entidades';
 import Agenda from './components/Agenda/Agends';
 
@@ -27,7 +27,7 @@ function App() {
      <div className='containerSlide'>   
 
       <Link className='spaceMargin'
-        to="/"
+        to="/elParque"
         type="submit"
       >El Parque</Link>
       <Link className='spaceButton'
@@ -54,28 +54,28 @@ function App() {
     <Routes>
       <Route 
       exact
-      path='/'
+      path='/elParque'
       element={
         <ElParque/>
       }
       />
-          <Route 
+    <Route 
       exact
-      path='/'
+      path='/barrio'
       element={
         <ElBarrio/>
       }
       />
           <Route 
       exact
-      path='/'
+      path='/entidades'
       element={
         <Entidades/>
       }
       />
           <Route 
       exact
-      path='/'
+      path='/agenda'
       element={
         <Agenda/>
       }
