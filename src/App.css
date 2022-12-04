@@ -1,26 +1,56 @@
-.header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin:5% 5%;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 3% 1%;
 }
-.line{
-    background-color: black;
-    width:320px;
-    height: 4px;
-    margin-left: 5%;
+.line {
+  background-color: black;
+  width: 320px;
+  height: 4px;
+  margin-left: 5%;
 }
-.titlle{
-    margin-left: 5%;
+.titlle {
+  margin: 1% 5%;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
 }
-.containerSlide{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.containerSlide {
+  display: flex;
+  flex-direction: row;
+  margin-left: 2%;
 }
-.containerNabvar{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    
+.spaceMargin {
+  margin-left: 3%;
+  cursor: pointer;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.spaceMargin:hover,
+.spaceMargin:focus,
+.spaceMargin:active {
+  font-size: 20px;
+}
+.spaceButton {
+  margin-left: 5%;
+  cursor: pointer;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+}
+.spaceButton:hover,
+.spaceButton:focus,
+.spaceButton:active {
+  font-size: 20px;
 }

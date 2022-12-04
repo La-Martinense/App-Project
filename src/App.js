@@ -25,6 +25,7 @@ function App() {
       <h1 className='titlle'>La Martinense</h1>
      </div>
      <div className='containerSlide'>   
+
       <Link
         to="/"
         type="submit"
@@ -41,6 +42,7 @@ function App() {
         to="/entidades"
         type="submit"
         > Entidades</Link>
+
      </div>
       <Link  
         to="/barrio"
