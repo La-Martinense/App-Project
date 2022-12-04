@@ -20,13 +20,13 @@ function App() {
        <CgProfile/>
      </header>
 
-     <div></div>
+     <div className='line'></div>
      <div>
-      <h1>La Martinense</h1>
+      <h1 className='titlle'>La Martinense</h1>
      </div>
-     <div>
+     <div className='containerSlide'>
       <MdChevronLeft onClick={slideLeft}/>
-      <div id='slider'>
+      <div className='containerNabvar' id='slider'>
       <h3>El Parque</h3>
       <h3>Historia</h3>
       <h3> Agenda</h3>
