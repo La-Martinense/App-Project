@@ -14,14 +14,15 @@ const Agenda = () => {
     <li>Ordenar</li>
     </ul>
 </div>
-<div className='containerAgenda1'></div>
-<img class="media-object" src= 'assets/image2.png' alt=""/>
-<div class="DisplayBoxes">
-    <h3 className='TextBoldAgenda'>
-    Petit mercat ambulant de Provençals
-    </h3>
-    <p>Cuándo:Evento permanente
-Dónde: C/ Menorca (entre C/ Treball i Selva de Mar) y C/ Menorca 19*23 (Sant Martí)</p>
+<div className='containerAgenda1'> 
+         <div class="DisplayBoxes">
+             <h3 className='TextBoldAgenda'>
+                Petit mercat ambulant de Provençals
+             </h3>
+             <p>Cuándo:Evento permanente
+              Dónde: C/ Menorca (entre C/ Treball i Selva de Mar) y C/ Menorca 19*23 (Sant Martí)</p>
+         </div>
+         <img class="media-object" src= 'assets/image2.png' alt=""/>
 </div>
 <div className='lineAgenda'>
 </div>
